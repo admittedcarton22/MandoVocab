@@ -61,8 +61,21 @@ const ChineseVocabularyTrainerWithPopup = () => {
   const [currentDay, setCurrentDay] = useState(1);
   const [focusedWordId, setFocusedWordId] = useState(null);
 
+  useEffect(() => {
+    // Load saved states from localStorage when component mounts
+    const savedStates = localStorage.getItem('knownWords');
+    if (savedStates) {
+      setKnownWords(JSON.parse(savedStates));
+    }
+  }, []);
+
+  useEffect(() => {
+    // Save states to localStorage whenever knownWords changes
+    localStorage.setItem('knownWords', JSON.stringify(knownWords));
+  }, [knownWords]);
+
   const handleKeyPress = (groupIndex, wordIndex, e) => {
-    const wordId = `${groupIndex}-${wordIndex}`;
+    const wordId = `${currentDay}-${groupIndex}-${wordIndex}`;
     const word = currentMode === 'vocabulary' 
       ? vocabularyGroups[groupIndex].words[wordIndex]
       : sentenceGroups[groupIndex].words[wordIndex];
@@ -89,6 +102,11 @@ const ChineseVocabularyTrainerWithPopup = () => {
     }
   };
 
+  const resetEverything = () => {
+    setKnownWords({});
+    localStorage.removeItem('knownWords');
+  };
+
   return (
     <div className="p-2 max-w-7xl mx-auto">
       <div className="flex justify-between items-center mb-4">
@@ -106,7 +124,7 @@ const ChineseVocabularyTrainerWithPopup = () => {
             Practice Sentences
           </Button>
         </div>
-        <Button className="bg-blue-500 text-white text-xs" onClick={() => setKnownWords({})}>Reset Everything</Button>
+        <Button className="bg-blue-500 text-white text-xs" onClick={resetEverything}>Reset Everything</Button>
       </div>
 
       <div className="mb-4">
@@ -126,7 +144,7 @@ const ChineseVocabularyTrainerWithPopup = () => {
           <div key={groupIndex} className="break-inside-avoid">
             <h3 className="font-bold mb-1 text-sm">{group.name}</h3>
             {group.words.map((word, wordIndex) => {
-              const wordId = `${groupIndex}-${wordIndex}`;
+              const wordId = `${currentDay}-${groupIndex}-${wordIndex}`;
               return (
                 <div 
                   key={wordIndex} 

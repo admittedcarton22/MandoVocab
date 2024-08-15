@@ -549,6 +549,557 @@ export const vocabularyGroups = [
       }
     ]
   },
+  {
+    name: 'Group 3',
+    words: [
+      {
+        character: '聪明',
+        pinyin: 'cōng míng',
+        english: 'smart',
+        exampleSentences: [
+          { chinese: '他非常聪明', pinyin: 'Tā fēicháng cōngmíng', english: 'He is very smart' },
+          { chinese: '聪明的孩子', pinyin: 'Cōngmíng de háizi', english: 'A smart child' }
+        ]
+      },
+      {
+        character: '快乐',
+        pinyin: 'kuài lè',
+        english: 'happy',
+        exampleSentences: [
+          { chinese: '祝你生日快乐', pinyin: 'Zhù nǐ shēngrì kuàilè', english: 'Happy birthday to you' },
+          { chinese: '她总是很快乐', pinyin: 'Tā zǒng shì hěn kuàilè', english: 'She is always very happy' }
+        ]
+      },
+      {
+        character: '努力',
+        pinyin: 'nǔ lì',
+        english: 'hardworking',
+        exampleSentences: [
+          { chinese: '他学习很努力', pinyin: 'Tā xuéxí hěn nǔlì', english: 'He studies very hard' },
+          { chinese: '努力工作是成功的关键', pinyin: 'Nǔlì gōngzuò shì chénggōng de guānjiàn', english: 'Working hard is the key to success' }
+        ]
+      },
+      {
+        character: '有趣',
+        pinyin: 'yǒu qù',
+        english: 'interesting',
+        exampleSentences: [
+          { chinese: '这个故事很有趣', pinyin: 'Zhège gùshì hěn yǒuqù', english: 'This story is very interesting' },
+          { chinese: '他是个有趣的人', pinyin: 'Tā shì gè yǒuqù de rén', english: 'He is an interesting person' }
+        ]
+      },
+      {
+        character: '容易',
+        pinyin: 'róng yì',
+        english: 'easy',
+        exampleSentences: [
+          { chinese: '这个题目很容易', pinyin: 'Zhège tímù hěn róngyì', english: 'This question is very easy' },
+          { chinese: '学中文不容易', pinyin: 'Xué Zhōngwén bù róngyì', english: 'Learning Chinese is not easy' }
+        ]
+      },
+      {
+        character: '危险',
+        pinyin: 'wēi xiǎn',
+        english: 'dangerous',
+        exampleSentences: [
+          { chinese: '这个地方很危险', pinyin: 'Zhège dìfāng hěn wēixiǎn', english: 'This place is very dangerous' },
+          { chinese: '他处在危险之中', pinyin: 'Tā chǔzài wēixiǎn zhīzhōng', english: 'He is in danger' }
+        ]
+      },
+      {
+        character: '安全',
+        pinyin: 'ān quán',
+        english: 'safe',
+        exampleSentences: [
+          { chinese: '这里很安全', pinyin: 'Zhèlǐ hěn ānquán', english: 'It is safe here' },
+          { chinese: '安全第一', pinyin: 'Ānquán dì yī', english: 'Safety first' }
+        ]
+      },
+      {
+        character: '健康',
+        pinyin: 'jiàn kāng',
+        english: 'healthy',
+        exampleSentences: [
+          { chinese: '保持健康很重要', pinyin: 'Bǎochí jiànkāng hěn zhòngyào', english: 'It is important to stay healthy' },
+          { chinese: '他很健康', pinyin: 'Tā hěn jiànkāng', english: 'He is very healthy' }
+        ]
+      },
+      {
+        character: '高兴',
+        pinyin: 'gāo xìng',
+        english: 'glad',
+        exampleSentences: [
+          { chinese: '见到你我很高兴', pinyin: 'Jiàndào nǐ wǒ hěn gāoxìng', english: 'I am glad to see you' },
+          { chinese: '他今天很高兴', pinyin: 'Tā jīntiān hěn gāoxìng', english: 'He is very happy today' }
+        ]
+      },
+      {
+        character: '无聊',
+        pinyin: 'wú liáo',
+        english: 'boring',
+        exampleSentences: [
+          { chinese: '这个电影很无聊', pinyin: 'Zhège diànyǐng hěn wúliáo', english: 'This movie is very boring' },
+          { chinese: '他感到很无聊', pinyin: 'Tā gǎndào hěn wúliáo', english: 'He feels very bored' }
+        ]
+      },
+      {
+        character: '幸福',
+        pinyin: 'xìng fú',
+        english: 'happy (blessed)',
+        exampleSentences: [
+          { chinese: '祝你幸福', pinyin: 'Zhù nǐ xìngfú', english: 'Wish you happiness' },
+          { chinese: '他们的生活很幸福', pinyin: 'Tāmen de shēnghuó hěn xìngfú', english: 'Their life is very happy' }
+        ]
+      },
+      {
+        character: '兴奋',
+        pinyin: 'xīng fèn',
+        english: 'excited',
+        exampleSentences: [
+          { chinese: '孩子们非常兴奋', pinyin: 'Háizi men fēicháng xīngfèn', english: 'The children are very excited' },
+          { chinese: '他对比赛感到兴奋', pinyin: 'Tā duì bǐsài gǎndào xīngfèn', english: 'He feels excited about the competition' }
+        ]
+      },
+      {
+        character: '害怕',
+        pinyin: 'hài pà',
+        english: 'afraid',
+        exampleSentences: [
+          { chinese: '不要害怕', pinyin: 'Bùyào hàipà', english: 'Don’t be afraid' },
+          { chinese: '她害怕黑暗', pinyin: 'Tā hàipà hēi\'àn', english: 'She is afraid of the dark' }
+        ]
+      },
+      {
+        character: '生气',
+        pinyin: 'shēng qì',
+        english: 'angry',
+        exampleSentences: [
+          { chinese: '他生气了', pinyin: 'Tā shēngqì le', english: 'He is angry' },
+          { chinese: '别生气，事情会解决的', pinyin: 'Bié shēngqì, shìqíng huì jiějué de', english: 'Don’t be angry, things will be solved' }
+        ]
+      },
+      {
+        character: '伤心',
+        pinyin: 'shāng xīn',
+        english: 'sad',
+        exampleSentences: [
+          { chinese: '她感到很伤心', pinyin: 'Tā gǎndào hěn shāngxīn', english: 'She feels very sad' },
+          { chinese: '不要伤心，一切都会好起来的', pinyin: 'Bùyào shāngxīn, yīqiè dūhuì hǎo qǐlái de', english: 'Don’t be sad, everything will be fine' }
+        ]
+      },
+      {
+        character: '爱心',
+        pinyin: 'ài xīn',
+        english: 'compassion',
+        exampleSentences: [
+          { chinese: '他充满了爱心', pinyin: 'Tā chōngmǎn le àixīn', english: 'He is full of compassion' },
+          { chinese: '我们需要更多的爱心', pinyin: 'Wǒmen xūyào gèng duō de àixīn', english: 'We need more compassion' }
+        ]
+      },
+      {
+        character: '关心',
+        pinyin: 'guān xīn',
+        english: 'care',
+        exampleSentences: [
+          { chinese: '谢谢你的关心', pinyin: 'Xièxiè nǐ de guānxīn', english: 'Thank you for your care' },
+          { chinese: '他很关心他的家人', pinyin: 'Tā hěn guānxīn tā de jiārén', english: 'He cares about his family a lot' }
+        ]
+      },
+      {
+        character: '担心',
+        pinyin: 'dān xīn',
+        english: 'worry',
+        exampleSentences: [
+          { chinese: '不用担心，一切都会好的', pinyin: 'Bùyòng dānxīn, yīqiè dūhuì hǎo de', english: 'Don’t worry, everything will be fine' },
+          { chinese: '他很担心他的朋友', pinyin: 'Tā hěn dānxīn tā de péngyǒu', english: 'He is worried about his friend' }
+        ]
+      },
+      {
+        character: '放心',
+        pinyin: 'fàng xīn',
+        english: 'feel relieved',
+        exampleSentences: [
+          { chinese: '你可以放心', pinyin: 'Nǐ kěyǐ fàngxīn', english: 'You can rest assured' },
+          { chinese: '一切都很顺利，请放心', pinyin: 'Yīqiè dōu hěn shùnlì, qǐng fàngxīn', english: 'Everything is going smoothly, please rest assured' }
+        ]
+      },
+      {
+        character: '满意',
+        pinyin: 'mǎn yì',
+        english: 'satisfied',
+        exampleSentences: [
+          { chinese: '我对这次旅行很满意', pinyin: 'Wǒ duì zhècì lǚxíng hěn mǎnyì', english: 'I am very satisfied with this trip' },
+          { chinese: '客户对我们的服务很满意', pinyin: 'Kèhù duì wǒmen de fúwù hěn mǎnyì', english: 'The customers are very satisfied with our service' }
+        ]
+      },
+      {
+        character: '不错',
+        pinyin: 'bú cuò',
+        english: 'not bad',
+        exampleSentences: [
+          { chinese: '这家餐厅的菜不错', pinyin: 'Zhè jiā cāntīng de cài bùcuò', english: 'The food at this restaurant is not bad' },
+          { chinese: '他的工作做得不错', pinyin: 'Tā de gōngzuò zuò de bùcuò', english: 'He did a good job' }
+        ]
+      },
+      {
+        character: '有意思',
+        pinyin: 'yǒu yì si',
+        english: 'interesting',
+        exampleSentences: [
+          { chinese: '这个故事很有意思', pinyin: 'Zhège gùshì hěn yǒuyìsi', english: 'This story is very interesting' },
+          { chinese: '我觉得这个活动很有意思', pinyin: 'Wǒ juédé zhège huódòng hěn yǒuyìsi', english: 'I find this activity very interesting' }
+        ]
+      },
+      {
+        character: '开心',
+        pinyin: 'kāi xīn',
+        english: 'happy',
+        exampleSentences: [
+          { chinese: '今天我很开心', pinyin: 'Jīntiān wǒ hěn kāixīn', english: 'I am very happy today' },
+          { chinese: '她的笑容让我很开心', pinyin: 'Tā de xiàoróng ràng wǒ hěn kāixīn', english: 'Her smile makes me happy' }
+        ]
+      },
+      {
+        character: '烦恼',
+        pinyin: 'fán nǎo',
+        english: 'trouble',
+        exampleSentences: [
+          { chinese: '他最近有很多烦恼', pinyin: 'Tā zuìjìn yǒu hěn duō fánnǎo', english: 'He has a lot of troubles recently' },
+          { chinese: '不要为小事烦恼', pinyin: 'Bùyào wèi xiǎoshì fánnǎo', english: 'Don’t trouble yourself over small things' }
+        ]
+      },
+      {
+        character: '压力',
+        pinyin: 'yā lì',
+        english: 'pressure',
+        exampleSentences: [
+          { chinese: '工作压力很大', pinyin: 'Gōngzuò yālì hěn dà', english: 'There is a lot of work pressure' },
+          { chinese: '他在压力下工作', pinyin: 'Tā zài yālì xià gōngzuò', english: 'He works under pressure' }
+        ]
+      },
+      {
+        character: '失望',
+        pinyin: 'shī wàng',
+        english: 'disappointed',
+        exampleSentences: [
+          { chinese: '我对结果很失望', pinyin: 'Wǒ duì jiéguǒ hěn shīwàng', english: 'I am disappointed with the result' },
+          { chinese: '不要对自己失望', pinyin: 'Bùyào duì zìjǐ shīwàng', english: 'Don’t be disappointed in yourself' }
+        ]
+      },
+      {
+        character: '冷静',
+        pinyin: 'lěng jìng',
+        english: 'calm',
+        exampleSentences: [
+          { chinese: '遇到困难要冷静', pinyin: 'Yù dào kùnnán yào lěngjìng', english: 'Stay calm when facing difficulties' },
+          { chinese: '他在紧急情况中很冷静', pinyin: 'Tā zài jǐnjí qíngkuàng zhōng hěn lěngjìng', english: 'He stays calm in emergencies' }
+        ]
+      },
+      {
+        character: '满足',
+        pinyin: 'mǎn zú',
+        english: 'satisfied',
+        exampleSentences: [
+          { chinese: '我对现在的生活很满足', pinyin: 'Wǒ duì xiànzài de shēnghuó hěn mǎnzú', english: 'I am satisfied with my current life' },
+          { chinese: '客户对我们的产品感到满足', pinyin: 'Kèhù duì wǒmen de chǎnpǐn gǎndào mǎnzú', english: 'The customers are satisfied with our products' }
+        ]
+      },
+      {
+        character: '兴趣',
+        pinyin: 'xìng qù',
+        english: 'interest',
+        exampleSentences: [
+          { chinese: '他对音乐很有兴趣', pinyin: 'Tā duì yīnyuè hěn yǒu xìngqù', english: 'He is very interested in music' },
+          { chinese: '我的兴趣是阅读', pinyin: 'Wǒ de xìngqù shì yuèdú', english: 'My hobby is reading' }
+        ]
+      },
+      {
+        character: '勇敢',
+        pinyin: 'yǒng gǎn',
+        english: 'brave',
+        exampleSentences: [
+          { chinese: '他是个勇敢的士兵', pinyin: 'Tā shì gè yǒnggǎn de shìbīng', english: 'He is a brave soldier' },
+          { chinese: '在面对困难时要勇敢', pinyin: 'Zài miànduì kùnnán shí yào yǒnggǎn', english: 'Be brave when facing difficulties' }
+        ]
+      }
+    ]
+  },
+
+  {
+    name: 'Group 4',
+    words: [
+      {
+        character: '电话',
+        pinyin: 'diàn huà',
+        english: 'phone',
+        exampleSentences: [
+          { chinese: '你有电话吗？', pinyin: 'Nǐ yǒu diànhuà ma?', english: 'Do you have a phone?' },
+          { chinese: '我打电话给你', pinyin: 'Wǒ dǎ diànhuà gěi nǐ', english: 'I’ll call you' }
+        ]
+      },
+      {
+        character: '电脑',
+        pinyin: 'diàn nǎo',
+        english: 'computer',
+        exampleSentences: [
+          { chinese: '我在用电脑工作', pinyin: 'Wǒ zài yòng diànnǎo gōngzuò', english: 'I’m working on the computer' },
+          { chinese: '我的电脑坏了', pinyin: 'Wǒ de diànnǎo huài le', english: 'My computer broke down' }
+        ]
+      },
+      {
+        character: '照片',
+        pinyin: 'zhào piàn',
+        english: 'photo',
+        exampleSentences: [
+          { chinese: '你拍了很多照片', pinyin: 'Nǐ pāi le hěn duō zhàopiàn', english: 'You took many photos' },
+          { chinese: '我喜欢这张照片', pinyin: 'Wǒ xǐhuān zhè zhāng zhàopiàn', english: 'I like this photo' }
+        ]
+      },
+      {
+        character: '相机',
+        pinyin: 'xiàng jī',
+        english: 'camera',
+        exampleSentences: [
+          { chinese: '他有一台新相机', pinyin: 'Tā yǒu yī tái xīn xiàngjī', english: 'He has a new camera' },
+          { chinese: '相机的价格很贵', pinyin: 'Xiàngjī de jiàgé hěn guì', english: 'Cameras are expensive' }
+        ]
+      },
+      {
+        character: '电视',
+        pinyin: 'diàn shì',
+        english: 'television',
+        exampleSentences: [
+          { chinese: '我在看电视', pinyin: 'Wǒ zài kàn diànshì', english: 'I’m watching TV' },
+          { chinese: '你喜欢看什么电视节目？', pinyin: 'Nǐ xǐhuān kàn shénme diànshì jiémù?', english: 'What TV shows do you like to watch?' }
+        ]
+      },
+      {
+        character: '电池',
+        pinyin: 'diàn chí',
+        english: 'battery',
+        exampleSentences: [
+          { chinese: '我的手机电池没电了', pinyin: 'Wǒ de shǒujī diànchí méi diàn le', english: 'My phone’s battery is dead' },
+          { chinese: '你有备用电池吗？', pinyin: 'Nǐ yǒu bèiyòng diànchí ma?', english: 'Do you have a spare battery?' }
+        ]
+      },
+      {
+        character: '灯',
+        pinyin: 'dēng',
+        english: 'lamp',
+        exampleSentences: [
+          { chinese: '请打开灯', pinyin: 'Qǐng dǎkāi dēng', english: 'Please turn on the lamp' },
+          { chinese: '这盏灯很亮', pinyin: 'Zhè zhǎn dēng hěn liàng', english: 'This lamp is very bright' }
+        ]
+      },
+      {
+        character: '电源',
+        pinyin: 'diàn yuán',
+        english: 'power source',
+        exampleSentences: [
+          { chinese: '检查一下电源', pinyin: 'Jiǎnchá yīxià diànyuán', english: 'Check the power source' },
+          { chinese: '电源已关闭', pinyin: 'Diànyuán yǐ guānbì', english: 'The power source is off' }
+        ]
+      },
+      {
+        character: '充电',
+        pinyin: 'chōng diàn',
+        english: 'charge',
+        exampleSentences: [
+          { chinese: '我需要给手机充电', pinyin: 'Wǒ xūyào gěi shǒujī chōngdiàn', english: 'I need to charge my phone' },
+          { chinese: '这个充电器很好用', pinyin: 'Zhège chōngdiànqì hěn hǎo yòng', english: 'This charger works well' }
+        ]
+      },
+      {
+        character: '录音',
+        pinyin: 'lù yīn',
+        english: 'record (sound)',
+        exampleSentences: [
+          { chinese: '我正在录音', pinyin: 'Wǒ zhèngzài lùyīn', english: 'I’m recording' },
+          { chinese: '他录了一首歌', pinyin: 'Tā lù le yī shǒu gē', english: 'He recorded a song' }
+        ]
+      },
+      {
+        character: '音乐',
+        pinyin: 'yīn yuè',
+        english: 'music',
+        exampleSentences: [
+          { chinese: '我喜欢听音乐', pinyin: 'Wǒ xǐhuān tīng yīnyuè', english: 'I like listening to music' },
+          { chinese: '什么类型的音乐你喜欢？', pinyin: 'Shénme lèixíng de yīnyuè nǐ xǐhuān?', english: 'What type of music do you like?' }
+        ]
+      },
+      {
+        character: '歌曲',
+        pinyin: 'gē qǔ',
+        english: 'song',
+        exampleSentences: [
+          { chinese: '这首歌曲很流行', pinyin: 'Zhè shǒu gēqǔ hěn liúxíng', english: 'This song is very popular' },
+          { chinese: '你最喜欢的歌曲是什么？', pinyin: 'Nǐ zuì xǐhuān de gēqǔ shì shénme?', english: 'What is your favorite song?' }
+        ]
+      },
+      {
+        character: '收音机',
+        pinyin: 'shōu yīn jī',
+        english: 'radio',
+        exampleSentences: [
+          { chinese: '我在听收音机', pinyin: 'Wǒ zài tīng shōuyīnjī', english: 'I’m listening to the radio' },
+          { chinese: '收音机的信号不太好', pinyin: 'Shōuyīnjī de xìnhào bù tài hǎo', english: 'The radio signal is not very good' }
+        ]
+      },
+      {
+        character: '键盘',
+        pinyin: 'jiàn pán',
+        english: 'keyboard',
+        exampleSentences: [
+          { chinese: '我的键盘坏了', pinyin: 'Wǒ de jiànpán huài le', english: 'My keyboard is broken' },
+          { chinese: '这个键盘很方便', pinyin: 'Zhège jiànpán hěn fāngbiàn', english: 'This keyboard is very convenient' }
+        ]
+      },
+      {
+        character: '鼠标',
+        pinyin: 'shǔ biāo',
+        english: 'mouse (computer)',
+        exampleSentences: [
+          { chinese: '我需要换个鼠标', pinyin: 'Wǒ xūyào huàn gè shǔbiāo', english: 'I need to replace my mouse' },
+          { chinese: '这只鼠标不太灵敏', pinyin: 'Zhè zhī shǔbiāo bù tài língmǐn', english: 'This mouse is not very responsive' }
+        ]
+      },
+      {
+        character: '屏幕',
+        pinyin: 'píng mù',
+        english: 'screen',
+        exampleSentences: [
+          { chinese: '电视屏幕很大', pinyin: 'Diànshì píngmù hěn dà', english: 'The TV screen is large' },
+          { chinese: '我的手机屏幕破了', pinyin: 'Wǒ de shǒujī píngmù pò le', english: 'My phone screen is cracked' }
+        ]
+      },
+      {
+        character: '电影',
+        pinyin: 'diàn yǐng',
+        english: 'movie',
+        exampleSentences: [
+          { chinese: '你喜欢看电影吗？', pinyin: 'Nǐ xǐhuān kàn diànyǐng ma?', english: 'Do you like watching movies?' },
+          { chinese: '这是一部很好的电影', pinyin: 'Zhè shì yī bù hěn hǎo de diànyǐng', english: 'This is a very good movie' }
+        ]
+      },
+      {
+        character: '游戏',
+        pinyin: 'yóu xì',
+        english: 'game',
+        exampleSentences: [
+          { chinese: '他喜欢玩电子游戏', pinyin: 'Tā xǐhuān wán diànzǐ yóuxì', english: 'He likes to play video games' },
+          { chinese: '这款游戏很有趣', pinyin: 'Zhè kuǎn yóuxì hěn yǒuqù', english: 'This game is very interesting' }
+        ]
+      },
+      {
+        character: '光盘',
+        pinyin: 'guāng pán',
+        english: 'CD/DVD',
+        exampleSentences: [
+          { chinese: '我买了这张光盘', pinyin: 'Wǒ mǎi le zhè zhāng guāngpán', english: 'I bought this CD' },
+          { chinese: '你有空白光盘吗？', pinyin: 'Nǐ yǒu kòngbái guāngpán ma?', english: 'Do you have a blank CD?' }
+        ]
+      },
+      {
+        character: '文件',
+        pinyin: 'wén jiàn',
+        english: 'file',
+        exampleSentences: [
+          { chinese: '这个文件很重要', pinyin: 'Zhège wénjiàn hěn zhòngyào', english: 'This file is important' },
+          { chinese: '我把文件发给你了', pinyin: 'Wǒ bǎ wénjiàn fā gěi nǐ le', english: 'I sent the file to you' }
+        ]
+      },
+      {
+        character: '软件',
+        pinyin: 'ruǎn jiàn',
+        english: 'software',
+        exampleSentences: [
+          { chinese: '你用了什么软件？', pinyin: 'Nǐ yòng le shénme ruǎnjiàn?', english: 'What software did you use?' },
+          { chinese: '这款软件很好用', pinyin: 'Zhè kuǎn ruǎnjiàn hěn hǎo yòng', english: 'This software is very user-friendly' }
+        ]
+      },
+      {
+        character: '硬件',
+        pinyin: 'yìng jiàn',
+        english: 'hardware',
+        exampleSentences: [
+          { chinese: '计算机硬件很重要', pinyin: 'Jìsuànjī yìngjiàn hěn zhòngyào', english: 'Computer hardware is important' },
+          { chinese: '你需要更好的硬件', pinyin: 'Nǐ xūyào gèng hǎo de yìngjiàn', english: 'You need better hardware' }
+        ]
+      },
+      {
+        character: '网络',
+        pinyin: 'wǎng luò',
+        english: 'network',
+        exampleSentences: [
+          { chinese: '网络连接失败', pinyin: 'Wǎngluò liánjiē shībài', english: 'The network connection failed' },
+          { chinese: '这个地区的网络不好', pinyin: 'Zhège dìqū de wǎngluò bù hǎo', english: 'The network in this area is not good' }
+        ]
+      },
+      {
+        character: '互联网',
+        pinyin: 'hù lián wǎng',
+        english: 'internet',
+        exampleSentences: [
+          { chinese: '互联网改变了世界', pinyin: 'Hùliánwǎng gǎibiàn le shìjiè', english: 'The internet has changed the world' },
+          { chinese: '你能连接互联网吗？', pinyin: 'Nǐ néng liánjiē hùliánwǎng ma?', english: 'Can you connect to the internet?' }
+        ]
+      },
+      {
+        character: '密码',
+        pinyin: 'mì mǎ',
+        english: 'password',
+        exampleSentences: [
+          { chinese: '你知道密码是什么吗？', pinyin: 'Nǐ zhīdào mìmǎ shì shénme ma?', english: 'Do you know what the password is?' },
+          { chinese: '不要把密码告诉别人', pinyin: 'Bùyào bǎ mìmǎ gàosu biérén', english: 'Don’t tell anyone the password' }
+        ]
+      },
+      {
+        character: '账户',
+        pinyin: 'zhàng hù',
+        english: 'account',
+        exampleSentences: [
+          { chinese: '我忘记了我的账户', pinyin: 'Wǒ wàngjì le wǒ de zhànghù', english: 'I forgot my account' },
+          { chinese: '你需要创建一个新账户', pinyin: 'Nǐ xūyào chuàngjiàn yīgè xīn zhànghù', english: 'You need to create a new account' }
+        ]
+      },
+      {
+        character: '文件夹',
+        pinyin: 'wén jiàn jiā',
+        english: 'folder',
+        exampleSentences: [
+          { chinese: '请打开文件夹', pinyin: 'Qǐng dǎkāi wénjiànjiā', english: 'Please open the folder' },
+          { chinese: '这个文件夹很乱', pinyin: 'Zhège wénjiànjiā hěn luàn', english: 'This folder is very messy' }
+        ]
+      },
+      {
+        character: '数据',
+        pinyin: 'shù jù',
+        english: 'data',
+        exampleSentences: [
+          { chinese: '我们需要更多的数据', pinyin: 'Wǒmen xūyào gèng duō de shùjù', english: 'We need more data' },
+          { chinese: '数据分析很重要', pinyin: 'Shùjù fēnxī hěn zhòngyào', english: 'Data analysis is important' }
+        ]
+      },
+      {
+        character: '存储',
+        pinyin: 'cún chǔ',
+        english: 'storage',
+        exampleSentences: [
+          { chinese: '我的电脑存储空间不足', pinyin: 'Wǒ de diànnǎo cúnchǔ kōngjiān bùzú', english: 'My computer is running out of storage' },
+          { chinese: '你需要增加存储空间', pinyin: 'Nǐ xūyào zēngjiā cúnchǔ kōngjiān', english: 'You need to add more storage space' }
+        ]
+      },
+      {
+        character: '程序',
+        pinyin: 'chéng xù',
+        english: 'program',
+        exampleSentences: [
+          { chinese: '这个程序很复杂', pinyin: 'Zhège chéngxù hěn fùzá', english: 'This program is complicated' },
+          { chinese: '你需要安装这个程序', pinyin: 'Nǐ xūyào ānzhuāng zhège chéngxù', english: 'You need to install this program' }
+        ]
+      }
+    ]
+  },
 ];
 
 export const sentenceGroups = [
