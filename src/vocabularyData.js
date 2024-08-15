@@ -1100,6 +1100,557 @@ export const vocabularyGroups = [
       }
     ]
   },
+  {
+    name: 'Group 5',
+    words: [
+      {
+        character: '书',
+        pinyin: 'shū',
+        english: 'book',
+        exampleSentences: [
+          { chinese: '我喜欢读书', pinyin: 'Wǒ xǐhuān dúshū', english: 'I like reading books' },
+          { chinese: '这本书很有趣', pinyin: 'Zhè běn shū hěn yǒuqù', english: 'This book is very interesting' }
+        ]
+      },
+      {
+        character: '课本',
+        pinyin: 'kè běn',
+        english: 'textbook',
+        exampleSentences: [
+          { chinese: '请打开课本', pinyin: 'Qǐng dǎkāi kèběn', english: 'Please open your textbook' },
+          { chinese: '这本课本很实用', pinyin: 'Zhè běn kèběn hěn shíyòng', english: 'This textbook is very practical' }
+        ]
+      },
+      {
+        character: '笔',
+        pinyin: 'bǐ',
+        english: 'pen',
+        exampleSentences: [
+          { chinese: '你有笔吗？', pinyin: 'Nǐ yǒu bǐ ma?', english: 'Do you have a pen?' },
+          { chinese: '这支笔很好写', pinyin: 'Zhè zhī bǐ hěn hǎo xiě', english: 'This pen writes well' }
+        ]
+      },
+      {
+        character: '铅笔',
+        pinyin: 'qiān bǐ',
+        english: 'pencil',
+        exampleSentences: [
+          { chinese: '我用铅笔画画', pinyin: 'Wǒ yòng qiānbǐ huà huà', english: 'I draw with a pencil' },
+          { chinese: '铅笔需要削一下', pinyin: 'Qiānbǐ xūyào xuē yīxià', english: 'The pencil needs sharpening' }
+        ]
+      },
+      {
+        character: '橡皮',
+        pinyin: 'xiàng pí',
+        english: 'eraser',
+        exampleSentences: [
+          { chinese: '请借我橡皮', pinyin: 'Qǐng jiè wǒ xiàngpí', english: 'Please lend me your eraser' },
+          { chinese: '这块橡皮很好用', pinyin: 'Zhè kuài xiàngpí hěn hǎo yòng', english: 'This eraser works well' }
+        ]
+      },
+      {
+        character: '尺子',
+        pinyin: 'chǐ zi',
+        english: 'ruler',
+        exampleSentences: [
+          { chinese: '用尺子量一下', pinyin: 'Yòng chǐzi liáng yīxià', english: 'Use the ruler to measure' },
+          { chinese: '这把尺子很长', pinyin: 'Zhè bǎ chǐzi hěn zhǎng', english: 'This ruler is very long' }
+        ]
+      },
+      {
+        character: '本子',
+        pinyin: 'běn zi',
+        english: 'notebook',
+        exampleSentences: [
+          { chinese: '我把笔记写在本子上', pinyin: 'Wǒ bǎ bǐjì xiě zài běnzi shàng', english: 'I wrote my notes in the notebook' },
+          { chinese: '这个本子很好用', pinyin: 'Zhège běnzi hěn hǎo yòng', english: 'This notebook is very useful' }
+        ]
+      },
+      {
+        character: '纸',
+        pinyin: 'zhǐ',
+        english: 'paper',
+        exampleSentences: [
+          { chinese: '请给我一张纸', pinyin: 'Qǐng gěi wǒ yī zhāng zhǐ', english: 'Please give me a piece of paper' },
+          { chinese: '这张纸很薄', pinyin: 'Zhè zhāng zhǐ hěn báo', english: 'This paper is very thin' }
+        ]
+      },
+      {
+        character: '书包',
+        pinyin: 'shū bāo',
+        english: 'schoolbag',
+        exampleSentences: [
+          { chinese: '我的书包很重', pinyin: 'Wǒ de shūbāo hěn zhòng', english: 'My schoolbag is heavy' },
+          { chinese: '你看见我的书包了吗？', pinyin: 'Nǐ kànjiàn wǒ de shūbāo le ma?', english: 'Did you see my schoolbag?' }
+        ]
+      },
+      {
+        character: '字典',
+        pinyin: 'zì diǎn',
+        english: 'dictionary',
+        exampleSentences: [
+          { chinese: '我用字典查单词', pinyin: 'Wǒ yòng zìdiǎn chá dāncí', english: 'I use a dictionary to look up words' },
+          { chinese: '这本字典很厚', pinyin: 'Zhè běn zìdiǎn hěn hòu', english: 'This dictionary is very thick' }
+        ]
+      },
+      {
+        character: '笔记本',
+        pinyin: 'bǐ jì běn',
+        english: 'notebook (laptop)',
+        exampleSentences: [
+          { chinese: '我用笔记本电脑工作', pinyin: 'Wǒ yòng bǐjìběn diànnǎo gōngzuò', english: 'I work on a laptop' },
+          { chinese: '这个笔记本很贵', pinyin: 'Zhège bǐjìběn hěn guì', english: 'This laptop is very expensive' }
+        ]
+      },
+      {
+        character: '练习',
+        pinyin: 'liàn xí',
+        english: 'practice',
+        exampleSentences: [
+          { chinese: '我每天练习写字', pinyin: 'Wǒ měitiān liànxí xiězì', english: 'I practice writing every day' },
+          { chinese: '你需要多练习', pinyin: 'Nǐ xūyào duō liànxí', english: 'You need to practice more' }
+        ]
+      },
+      {
+        character: '作业',
+        pinyin: 'zuò yè',
+        english: 'homework',
+        exampleSentences: [
+          { chinese: '今天的作业很多', pinyin: 'Jīntiān de zuòyè hěn duō', english: 'There is a lot of homework today' },
+          { chinese: '你做完作业了吗？', pinyin: 'Nǐ zuòwán zuòyè le ma?', english: 'Did you finish your homework?' }
+        ]
+      },
+      {
+        character: '考试',
+        pinyin: 'kǎo shì',
+        english: 'exam',
+        exampleSentences: [
+          { chinese: '明天有一个重要的考试', pinyin: 'Míngtiān yǒu yīgè zhòngyào de kǎoshì', english: 'There is an important exam tomorrow' },
+          { chinese: '他正在准备考试', pinyin: 'Tā zhèngzài zhǔnbèi kǎoshì', english: 'He is preparing for the exam' }
+        ]
+      },
+      {
+        character: '学校',
+        pinyin: 'xué xiào',
+        english: 'school',
+        exampleSentences: [
+          { chinese: '我每天去学校', pinyin: 'Wǒ měitiān qù xuéxiào', english: 'I go to school every day' },
+          { chinese: '这是一所很好的学校', pinyin: 'Zhè shì yī suǒ hěn hǎo de xuéxiào', english: 'This is a very good school' }
+        ]
+      },
+      {
+        character: '教室',
+        pinyin: 'jiào shì',
+        english: 'classroom',
+        exampleSentences: [
+          { chinese: '学生们都在教室里', pinyin: 'Xuéshēngmen dōu zài jiàoshì lǐ', english: 'The students are all in the classroom' },
+          { chinese: '教室很安静', pinyin: 'Jiàoshì hěn ānjìng', english: 'The classroom is quiet' }
+        ]
+      },
+      {
+        character: '学生',
+        pinyin: 'xué shēng',
+        english: 'student',
+        exampleSentences: [
+          { chinese: '我是学生', pinyin: 'Wǒ shì xuéshēng', english: 'I am a student' },
+          { chinese: '学生们都很努力', pinyin: 'Xuéshēngmen dōu hěn nǔlì', english: 'The students are all very hardworking' }
+        ]
+      },
+      {
+        character: '老师',
+        pinyin: 'lǎo shī',
+        english: 'teacher',
+        exampleSentences: [
+          { chinese: '我们的老师很亲切', pinyin: 'Wǒmen de lǎoshī hěn qīnqiè', english: 'Our teacher is very kind' },
+          { chinese: '老师给我们很多帮助', pinyin: 'Lǎoshī gěi wǒmen hěn duō bāngzhù', english: 'The teacher gives us a lot of help' }
+        ]
+      },
+      {
+        character: '课',
+        pinyin: 'kè',
+        english: 'class',
+        exampleSentences: [
+          { chinese: '我们今天有中文课', pinyin: 'Wǒmen jīntiān yǒu Zhōngwén kè', english: 'We have Chinese class today' },
+          { chinese: '这节课很有意思', pinyin: 'Zhè jié kè hěn yǒuyìsi', english: 'This class is very interesting' }
+        ]
+      },
+      {
+        character: '语法',
+        pinyin: 'yǔ fǎ',
+        english: 'grammar',
+        exampleSentences: [
+          { chinese: '学习语法很重要', pinyin: 'Xuéxí yǔfǎ hěn zhòngyào', english: 'Learning grammar is important' },
+          { chinese: '中文语法很难', pinyin: 'Zhōngwén yǔfǎ hěn nán', english: 'Chinese grammar is difficult' }
+        ]
+      },
+      {
+        character: '单词',
+        pinyin: 'dān cí',
+        english: 'word',
+        exampleSentences: [
+          { chinese: '请学习这些单词', pinyin: 'Qǐng xuéxí zhèxiē dāncí', english: 'Please learn these words' },
+          { chinese: '这个单词是什么意思？', pinyin: 'Zhège dāncí shì shénme yìsi?', english: 'What does this word mean?' }
+        ]
+      },
+      {
+        character: '句子',
+        pinyin: 'jù zi',
+        english: 'sentence',
+        exampleSentences: [
+          { chinese: '请用这个单词造句子', pinyin: 'Qǐng yòng zhège dāncí zào jùzi', english: 'Please make a sentence with this word' },
+          { chinese: '这个句子很长', pinyin: 'Zhège jùzi hěn cháng', english: 'This sentence is very long' }
+        ]
+      },
+      {
+        character: '文章',
+        pinyin: 'wén zhāng',
+        english: 'article',
+        exampleSentences: [
+          { chinese: '我在读一篇文章', pinyin: 'Wǒ zài dú yī piān wénzhāng', english: 'I’m reading an article' },
+          { chinese: '这篇文章很有意思', pinyin: 'Zhè piān wénzhāng hěn yǒuyìsi', english: 'This article is very interesting' }
+        ]
+      },
+      {
+        character: '课文',
+        pinyin: 'kè wén',
+        english: 'text (in a textbook)',
+        exampleSentences: [
+          { chinese: '请读课文', pinyin: 'Qǐng dú kèwén', english: 'Please read the text' },
+          { chinese: '这段课文很难', pinyin: 'Zhè duàn kèwén hěn nán', english: 'This part of the text is difficult' }
+        ]
+      },
+      {
+        character: '语音',
+        pinyin: 'yǔ yīn',
+        english: 'phonetics',
+        exampleSentences: [
+          { chinese: '语音学习很重要', pinyin: 'Yǔyīn xuéxí hěn zhòngyào', english: 'Learning phonetics is important' },
+          { chinese: '语音练习帮助我们发音', pinyin: 'Yǔyīn liànxí bāngzhù wǒmen fāyīn', english: 'Phonetics exercises help us with pronunciation' }
+        ]
+      },
+      {
+        character: '阅读',
+        pinyin: 'yuè dú',
+        english: 'reading',
+        exampleSentences: [
+          { chinese: '我喜欢阅读', pinyin: 'Wǒ xǐhuān yuèdú', english: 'I like reading' },
+          { chinese: '阅读提高了我的理解能力', pinyin: 'Yuèdú tígāo le wǒ de lǐjiě nénglì', english: 'Reading improved my comprehension skills' }
+        ]
+      },
+      {
+        character: '写作',
+        pinyin: 'xiě zuò',
+        english: 'writing',
+        exampleSentences: [
+          { chinese: '我在写作', pinyin: 'Wǒ zài xiězuò', english: 'I am writing' },
+          { chinese: '写作是表达思想的方式', pinyin: 'Xiězuò shì biǎodá sīxiǎng de fāngshì', english: 'Writing is a way to express thoughts' }
+        ]
+      },
+      {
+        character: '听力',
+        pinyin: 'tīng lì',
+        english: 'listening comprehension',
+        exampleSentences: [
+          { chinese: '听力练习很重要', pinyin: 'Tīnglì liànxí hěn zhòngyào', english: 'Listening comprehension practice is important' },
+          { chinese: '你需要提高听力', pinyin: 'Nǐ xūyào tígāo tīnglì', english: 'You need to improve your listening skills' }
+        ]
+      },
+      {
+        character: '口语',
+        pinyin: 'kǒu yǔ',
+        english: 'spoken language',
+        exampleSentences: [
+          { chinese: '口语练习对学中文很有帮助', pinyin: 'Kǒuyǔ liànxí duì xué Zhōngwén hěn yǒu bāngzhù', english: 'Speaking practice is very helpful for learning Chinese' },
+          { chinese: '他的口语很好', pinyin: 'Tā de kǒuyǔ hěn hǎo', english: 'His spoken language is very good' }
+        ]
+      },
+      {
+        character: '文化',
+        pinyin: 'wén huà',
+        english: 'culture',
+        exampleSentences: [
+          { chinese: '中国文化很丰富', pinyin: 'Zhōngguó wénhuà hěn fēngfù', english: 'Chinese culture is very rich' },
+          { chinese: '了解不同的文化很重要', pinyin: 'Liǎojiě bùtóng de wénhuà hěn zhòngyào', english: 'Understanding different cultures is important' }
+        ]
+      }
+    ]
+  },
+  
+  {
+    name: 'Group 6',
+    words: [
+      {
+        character: '颜色',
+        pinyin: 'yán sè',
+        english: 'color',
+        exampleSentences: [
+          { chinese: '你最喜欢什么颜色？', pinyin: 'Nǐ zuì xǐhuān shénme yánsè?', english: 'What is your favorite color?' },
+          { chinese: '这个颜色很漂亮', pinyin: 'Zhège yánsè hěn piàoliang', english: 'This color is very beautiful' }
+        ]
+      },
+      {
+        character: '红色',
+        pinyin: 'hóng sè',
+        english: 'red',
+        exampleSentences: [
+          { chinese: '她穿了一件红色的衣服', pinyin: 'Tā chuān le yī jiàn hóngsè de yīfú', english: 'She is wearing a red dress' },
+          { chinese: '红色是中国的幸运色', pinyin: 'Hóngsè shì Zhōngguó de xìngyùn sè', english: 'Red is a lucky color in China' }
+        ]
+      },
+      {
+        character: '蓝色',
+        pinyin: 'lán sè',
+        english: 'blue',
+        exampleSentences: [
+          { chinese: '天空是蓝色的', pinyin: 'Tiānkōng shì lánsè de', english: 'The sky is blue' },
+          { chinese: '他喜欢蓝色的车', pinyin: 'Tā xǐhuān lánsè de chē', english: 'He likes blue cars' }
+        ]
+      },
+      {
+        character: '绿色',
+        pinyin: 'lǜ sè',
+        english: 'green',
+        exampleSentences: [
+          { chinese: '草是绿色的', pinyin: 'Cǎo shì lǜsè de', english: 'The grass is green' },
+          { chinese: '绿色象征着环保', pinyin: 'Lǜsè xiàngzhēngzhe huánbǎo', english: 'Green symbolizes environmental protection' }
+        ]
+      },
+      {
+        character: '黄色',
+        pinyin: 'huáng sè',
+        english: 'yellow',
+        exampleSentences: [
+          { chinese: '她的房间是黄色的', pinyin: 'Tā de fángjiān shì huángsè de', english: 'Her room is yellow' },
+          { chinese: '黄色的花很漂亮', pinyin: 'Huángsè de huā hěn piàoliang', english: 'Yellow flowers are beautiful' }
+        ]
+      },
+      {
+        character: '黑色',
+        pinyin: 'hēi sè',
+        english: 'black',
+        exampleSentences: [
+          { chinese: '他喜欢穿黑色的衣服', pinyin: 'Tā xǐhuān chuān hēisè de yīfú', english: 'He likes to wear black clothes' },
+          { chinese: '黑色的猫很神秘', pinyin: 'Hēisè de māo hěn shénmì', english: 'Black cats are very mysterious' }
+        ]
+      },
+      {
+        character: '白色',
+        pinyin: 'bái sè',
+        english: 'white',
+        exampleSentences: [
+          { chinese: '她的裙子是白色的', pinyin: 'Tā de qúnzi shì báisè de', english: 'Her dress is white' },
+          { chinese: '白色象征着纯洁', pinyin: 'Báisè xiàngzhēngzhe chúnjié', english: 'White symbolizes purity' }
+        ]
+      },
+      {
+        character: '粉色',
+        pinyin: 'fěn sè',
+        english: 'pink',
+        exampleSentences: [
+          { chinese: '她的房间是粉色的', pinyin: 'Tā de fángjiān shì fěnsè de', english: 'Her room is pink' },
+          { chinese: '粉色的花很美丽', pinyin: 'Fěnsè de huā hěn měilì', english: 'Pink flowers are beautiful' }
+        ]
+      },
+      {
+        character: '紫色',
+        pinyin: 'zǐ sè',
+        english: 'purple',
+        exampleSentences: [
+          { chinese: '她喜欢紫色的花', pinyin: 'Tā xǐhuān zǐsè de huā', english: 'She likes purple flowers' },
+          { chinese: '紫色是高贵的颜色', pinyin: 'Zǐsè shì gāoguì de yánsè', english: 'Purple is a noble color' }
+        ]
+      },
+      {
+        character: '橙色',
+        pinyin: 'chéng sè',
+        english: 'orange',
+        exampleSentences: [
+          { chinese: '橙色的太阳很美', pinyin: 'Chéngsè de tàiyáng hěn měi', english: 'The orange sun is beautiful' },
+          { chinese: '我喜欢橙色的果汁', pinyin: 'Wǒ xǐhuān chéngsè de guǒzhī', english: 'I like orange juice' }
+        ]
+      },
+      {
+        character: '灰色',
+        pinyin: 'huī sè',
+        english: 'gray',
+        exampleSentences: [
+          { chinese: '今天的天空是灰色的', pinyin: 'Jīntiān de tiānkōng shì huīsè de', english: 'The sky is gray today' },
+          { chinese: '他有一辆灰色的车', pinyin: 'Tā yǒu yī liàng huīsè de chē', english: 'He has a gray car' }
+        ]
+      },
+      {
+        character: '咖啡色',
+        pinyin: 'kā fēi sè',
+        english: 'brown',
+        exampleSentences: [
+          { chinese: '她喜欢咖啡色的包', pinyin: 'Tā xǐhuān kāfēisè de bāo', english: 'She likes brown bags' },
+          { chinese: '咖啡色的眼镜很好看', pinyin: 'Kāfēisè de yǎnjìng hěn hǎokàn', english: 'Brown glasses look good' }
+        ]
+      },
+      {
+        character: '金色',
+        pinyin: 'jīn sè',
+        english: 'gold',
+        exampleSentences: [
+          { chinese: '金色的戒指很漂亮', pinyin: 'Jīnsè de jièzhǐ hěn piàoliang', english: 'The gold ring is beautiful' },
+          { chinese: '金色象征着财富', pinyin: 'Jīnsè xiàngzhēngzhe cáifù', english: 'Gold symbolizes wealth' }
+        ]
+      },
+      {
+        character: '银色',
+        pinyin: 'yín sè',
+        english: 'silver',
+        exampleSentences: [
+          { chinese: '她有一条银色的项链', pinyin: 'Tā yǒu yī tiáo yínsè de xiàngliàn', english: 'She has a silver necklace' },
+          { chinese: '银色的车看起来很现代', pinyin: 'Yínsè de chē kàn qǐlái hěn xiàndài', english: 'Silver cars look modern' }
+        ]
+      },
+      {
+        character: '五颜六色',
+        pinyin: 'wǔ yán liù sè',
+        english: 'colorful',
+        exampleSentences: [
+          { chinese: '彩色的画很漂亮', pinyin: 'Cǎisè de huà hěn piàoliang', english: 'The colorful painting is beautiful' },
+          { chinese: '她喜欢彩色的衣服', pinyin: 'Tā xǐhuān cǎisè de yīfú', english: 'She likes colorful clothes' }
+        ]
+      },
+      {
+        character: '深色',
+        pinyin: 'shēn sè',
+        english: 'dark color',
+        exampleSentences: [
+          { chinese: '他喜欢穿深色的衣服', pinyin: 'Tā xǐhuān chuān shēnsè de yīfú', english: 'He likes to wear dark-colored clothes' },
+          { chinese: '深色的家具很显贵', pinyin: 'Shēnsè de jiājù hěn xiǎnguì', english: 'Dark furniture looks luxurious' }
+        ]
+      },
+      {
+        character: '浅色',
+        pinyin: 'qiǎn sè',
+        english: 'light color',
+        exampleSentences: [
+          { chinese: '她的房间是浅色的', pinyin: 'Tā de fángjiān shì qiǎnsè de', english: 'Her room is light-colored' },
+          { chinese: '浅色的衣服适合夏天', pinyin: 'Qiǎnsè de yīfú shìhé xiàtiān', english: 'Light-colored clothes are suitable for summer' }
+        ]
+      },
+      {
+        character: '鲜艳',
+        pinyin: 'xiān yàn',
+        english: 'bright (color)',
+        exampleSentences: [
+          { chinese: '她喜欢穿鲜艳的衣服', pinyin: 'Tā xǐhuān chuān xiānyàn de yīfú', english: 'She likes to wear bright clothes' },
+          { chinese: '鲜艳的颜色让人感觉愉快', pinyin: 'Xiānyàn de yánsè ràng rén gǎnjué yúkuài', english: 'Bright colors make people feel happy' }
+        ]
+      },
+      {
+        character: '暗淡',
+        pinyin: "àn dàn",
+        english: 'dull (color)',
+        exampleSentences: [
+          { chinese: "这个房间的颜色有点暗淡", pinyin: "Zhège fángjiān de yánsè yǒudiǎn àndàn", english: "The color of this room is a bit dull" },
+          { chinese: "她不喜欢暗淡的颜色", pinyin: "Tā bù xǐhuān àndàn de yánsè", english: "She doesn’t like dull colors" }
+        ]
+      },
+      {
+        character: "透明",
+        pinyin: "tòu míng",
+        english: "transparent",
+        exampleSentences: [
+          { chinese: "这个杯子是透明的", pinyin: "Zhège bēizi shì tòumíng de", english: "This cup is transparent" },
+          { chinese: "透明的窗户让房间更明亮", pinyin: "Tòumíng de chuānghù ràng fángjiān gèng míngliàng", english: "Transparent windows make the room brighter" }
+        ]
+      },
+      {
+        character: "照亮",
+        pinyin: "zhào liàng",
+        english: "to light up",
+        exampleSentences: [
+          { chinese: "太阳照亮了整个房间", pinyin: "Tàiyáng zhàoliàng le zhěnggè fángjiān", english: "The sun lit up the entire room" },
+          { chinese: "灯光照亮了街道", pinyin: "Dēngguāng zhàoliàng le jiēdào", english: "The lights lit up the street" }
+        ]
+      },
+      {
+        character: "昏暗",
+        pinyin: "hūn'àn",
+        english: "dim",
+        exampleSentences: [
+          { chinese: "房间里很昏暗", pinyin: "Fángjiān lǐ hěn hūn'àn", english: "The room is very dim" },
+          { chinese: "昏暗的灯光让人感到不安", pinyin: "Hūn'àn de dēngguāng ràng rén gǎndào bù'ān", english: "The dim light makes people feel uneasy" }
+        ]
+      },
+      {
+        character: "明亮",
+        pinyin: "míng liàng",
+        english: "bright",
+        exampleSentences: [
+          { chinese: "这个房间很明亮", pinyin: "Zhège fángjiān hěn míngliàng", english: "This room is very bright" },
+          { chinese: "她的眼睛很明亮", pinyin: "Tā de yǎnjīng hěn míngliàng", english: "Her eyes are very bright" }
+        ]
+      },
+      {
+        character: "彩虹",
+        pinyin: "cǎi hóng",
+        english: "rainbow",
+        exampleSentences: [
+          { chinese: "雨后天上出现了彩虹", pinyin: "Yǔ hòu tiān shàng chūxiàn le cǎihóng", english: "A rainbow appeared in the sky after the rain" },
+          { chinese: "孩子们很喜欢看彩虹", pinyin: "Háizi men hěn xǐhuān kàn cǎihóng", english: "Children love watching rainbows" }
+        ]
+      },
+      {
+        character: "珠光",
+        pinyin: "zhū guāng",
+        english: "pearlescent",
+        exampleSentences: [
+          { chinese: "她的皮肤有珠光效果", pinyin: "Tā de pífū yǒu zhūguāng xiàoguǒ", english: "Her skin has a pearlescent effect" },
+          { chinese: "珠光漆让车子看起来很豪华", pinyin: "Zhūguāng qī ràng chēzi kàn qǐlái hěn háohuá", english: "Pearlescent paint makes the car look luxurious" }
+        ]
+      },
+      {
+        character: "墨",
+        pinyin: "mò",
+        english: "ink",
+        exampleSentences: [
+          { chinese: "这支笔没有墨了", pinyin: "Zhè zhī bǐ méiyǒu mò le", english: "This pen is out of ink" },
+          { chinese: "他用墨写字", pinyin: "Tā yòng mò xiězì", english: "He writes with ink" }
+        ]
+      },
+      {
+        character: "光亮",
+        pinyin: "guāng liàng",
+        english: "light (brightness)",
+        exampleSentences: [
+          { chinese: "光亮的房间让人感觉舒适", pinyin: "Guāngliàng de fángjiān ràng rén gǎnjué shūshì", english: "A bright room makes people feel comfortable" },
+          { chinese: "灯光很光亮", pinyin: "Dēngguāng hěn guāngliàng", english: "The light is very bright" }
+        ]
+      },
+      {
+        character: "显眼",
+        pinyin: "xiǎn yǎn",
+        english: "conspicuous",
+        exampleSentences: [
+          { chinese: "他穿着显眼的衣服", pinyin: "Tā chuānzhuó xiǎnyǎn de yīfú", english: "He is wearing conspicuous clothes" },
+          { chinese: "这个颜色很显眼", pinyin: "Zhège yánsè hěn xiǎnyǎn", english: "This color is very conspicuous" }
+        ]
+      },
+      {
+        character: "暗色",
+        pinyin: "àn sè",
+        english: "dark color",
+        exampleSentences: [
+          { chinese: "暗色的房间让人感觉沉闷", pinyin: "Ànsè de fángjiān ràng rén gǎnjué chénmèn", english: "A dark room makes people feel depressed" },
+          { chinese: "她喜欢暗色的家具", pinyin: "Tā xǐhuān ànsè de jiājù", english: "She likes dark-colored furniture" }
+        ]
+      },
+      {
+        character: "发亮",
+        pinyin: "fā liàng",
+        english: "to shine",
+        exampleSentences: [
+          { chinese: "星星在夜空中发亮", pinyin: "Xīngxīng zài yèkōng zhōng fāliàng", english: "The stars are shining in the night sky" },
+          { chinese: "她的眼睛发亮了", pinyin: "Tā de yǎnjīng fāliàng le", english: "Her eyes brightened up" }
+        ]
+      }
+    ]
+  },
 ];
 
 export const sentenceGroups = [
