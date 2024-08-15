@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { vocabularyGroups, sentenceGroups } from './vocabularyData';
 
 const Button = ({ children, className, ...props }) => (
-  <button className={`px-2 py-1 rounded ${className}`} {...props}>
+  <button className={`px-3 py-1.5 rounded text-sm ${className}`} {...props}>
     {children}
   </button>
 );
@@ -54,15 +54,38 @@ const PopupCard = ({ word, onClose }) => {
   );
 };
 
+const HowToStudyModal = ({ onClose }) => {
+  return (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
+      <div className="bg-white p-6 rounded-lg max-w-2xl w-full">
+        <h2 className="text-2xl font-bold mb-4">How to Study Effectively</h2>
+        <ul className="list-disc list-inside space-y-2 mb-4">
+          <li>Focus on one group per day, reviewing previous days' words.</li>
+          <li>Use the 'G' (Green) button for words you recognize instantly.</li>
+          <li>Use the 'R' (Red) button for words you need to review more.</li>
+          <li>Press 'D' or double-click to show word details and example sentences.</li>
+          <li>Press 'S' or use the audio button to hear the pronunciation.</li>
+          <li>Practice writing the characters to reinforce memory.</li>
+          <li>Create sentences using new words to understand context.</li>
+          <li>Review red-marked words more frequently.</li>
+          <li>Set a daily study goal and track your progress.</li>
+        </ul>
+        <Button onClick={onClose} className="bg-blue-500 text-white">Close</Button>
+      </div>
+    </div>
+  );
+};
+
 const ChineseVocabularyTrainerWithPopup = () => {
   const [currentMode, setCurrentMode] = useState('vocabulary');
   const [knownWords, setKnownWords] = useState({});
   const [selectedWord, setSelectedWord] = useState(null);
   const [currentDay, setCurrentDay] = useState(1);
   const [focusedWordId, setFocusedWordId] = useState(null);
+  const [showHowToStudy, setShowHowToStudy] = useState(false);
+  const audioRef = useRef(null);
 
   useEffect(() => {
-    // Load saved states from localStorage when component mounts
     const savedStates = localStorage.getItem('knownWords');
     if (savedStates) {
       setKnownWords(JSON.parse(savedStates));
@@ -70,9 +93,15 @@ const ChineseVocabularyTrainerWithPopup = () => {
   }, []);
 
   useEffect(() => {
-    // Save states to localStorage whenever knownWords changes
     localStorage.setItem('knownWords', JSON.stringify(knownWords));
   }, [knownWords]);
+
+  const playAudio = (character) => {
+    if (audioRef.current) {
+      audioRef.current.src = `/audio/${character}.mp3`;
+      audioRef.current.play();
+    }
+  };
 
   const handleKeyPress = (groupIndex, wordIndex, e) => {
     const wordId = `${currentDay}-${groupIndex}-${wordIndex}`;
@@ -88,18 +117,25 @@ const ChineseVocabularyTrainerWithPopup = () => {
         break;
       case 'd':
         if (focusedWordId === wordId) {
-          setSelectedWord(selectedWord ? null : word);
+          setSelectedWord(word);
         }
+        break;
+      case 's':
+        playAudio(word.character);
         break;
     }
   };
 
   const handleWordClick = (word, wordId) => {
+    console.log('Clicked word:', wordId, 'Current focused:', focusedWordId);
     if (focusedWordId === wordId) {
-      setSelectedWord(selectedWord && selectedWord.character === word.character ? null : word);
+      setSelectedWord(word);
+      setFocusedWordId(null);
     } else {
       setFocusedWordId(wordId);
+      setSelectedWord(null);
     }
+    console.log('After click - Focused:', wordId, 'Selected:', word ? word.character : null);
   };
 
   const resetEverything = () => {
@@ -107,28 +143,47 @@ const ChineseVocabularyTrainerWithPopup = () => {
     localStorage.removeItem('knownWords');
   };
 
+  const resetCurrentDay = () => {
+    const updatedKnownWords = {...knownWords};
+    Object.keys(updatedKnownWords).forEach(key => {
+      if (key.startsWith(`${currentDay}-`)) {
+        delete updatedKnownWords[key];
+      }
+    });
+    setKnownWords(updatedKnownWords);
+  };
+
   return (
-    <div className="p-2 max-w-7xl mx-auto">
-      <div className="flex justify-between items-center mb-4">
+    <div className="p-4 max-w-7xl mx-auto text-base">
+      <div className="flex justify-between items-center mb-6">
         <div className="flex space-x-2">
           <Button 
-            className={`${currentMode === 'vocabulary' ? 'bg-blue-500 text-white' : 'bg-gray-200'} text-xs`}
+            className={`${currentMode === 'vocabulary' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
             onClick={() => setCurrentMode('vocabulary')}
           >
             Chinese List 1
           </Button>
           <Button 
-            className={`${currentMode === 'sentences' ? 'bg-blue-500 text-white' : 'bg-gray-200'} text-xs`}
+            className={`${currentMode === 'sentences' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
             onClick={() => setCurrentMode('sentences')}
           >
             Practice Sentences
           </Button>
+          <Button 
+            className="bg-green-500 text-white"
+            onClick={() => setShowHowToStudy(true)}
+          >
+            How to Study
+          </Button>
         </div>
-        <Button className="bg-blue-500 text-white text-xs" onClick={resetEverything}>Reset Everything</Button>
+        <div className="flex space-x-2">
+          <Button className="bg-yellow-500 text-white" onClick={resetCurrentDay}>Clear Current Day</Button>
+          <Button className="bg-red-500 text-white" onClick={resetEverything}>Reset All Progress</Button>
+        </div>
       </div>
 
-      <div className="mb-4">
-        <p className="text-center mb-2 text-sm">Day {currentDay} of 30</p>
+      <div className="mb-6">
+        <p className="text-center mb-2">Day {currentDay} of 30</p>
         <input 
           type="range" 
           min="1" 
@@ -142,16 +197,18 @@ const ChineseVocabularyTrainerWithPopup = () => {
       <div className="grid grid-cols-6 gap-4">
         {(currentMode === 'vocabulary' ? vocabularyGroups : sentenceGroups).slice(0, currentDay).map((group, groupIndex) => (
           <div key={groupIndex} className="break-inside-avoid">
-            <h3 className="font-bold mb-1 text-sm">{group.name}</h3>
+            <h3 className="font-bold mb-2 text-lg">{group.name}</h3>
             {group.words.map((word, wordIndex) => {
               const wordId = `${currentDay}-${groupIndex}-${wordIndex}`;
+              const isSelected = focusedWordId === wordId;
+              console.log('Rendering word:', wordId, 'Is selected:', isSelected);
               return (
                 <div 
                   key={wordIndex} 
-                  className={`p-1 mb-0.5 cursor-pointer text-xs ${
+                  className={`p-2 mb-1 cursor-pointer ${
                     knownWords[wordId] === 'known' ? 'bg-green-200' :
                     knownWords[wordId] === 'unknown' ? 'bg-red-200' :
-                    focusedWordId === wordId ? 'outline outline-2 outline-blue-500' : ''
+                    isSelected ? 'outline outline-2 outline-blue-500' : ''
                   }`}
                   onClick={() => handleWordClick(word, wordId)}
                   onKeyDown={(e) => handleKeyPress(groupIndex, wordIndex, e)}
@@ -173,10 +230,17 @@ const ChineseVocabularyTrainerWithPopup = () => {
         <PopupCard word={selectedWord} onClose={() => setSelectedWord(null)} />
       )}
 
-      <div className="mt-4 text-center text-xs text-gray-600">
+      {showHowToStudy && (
+        <HowToStudyModal onClose={() => setShowHowToStudy(false)} />
+      )}
+
+      <audio ref={audioRef} />
+
+      <div className="mt-6 text-center text-sm text-gray-600">
         <p>Click on a word to focus it, then click again or press 'D' to show its details.</p>
         <p>Press 'G' if you recognized the word without needing to check the definition.</p>
         <p>Press 'R' if you didn't recognize the word and needed to check the definition.</p>
+        <p>Press 'S' to play the audio for the focused word.</p>
       </div>
     </div>
   );
