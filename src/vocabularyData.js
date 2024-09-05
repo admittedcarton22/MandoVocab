@@ -1108,17 +1108,17 @@ export const vocabularyGroups = [
         pinyin: 'shū',
         english: 'book',
         exampleSentences: [
-          { chinese: '我喜欢读书', pinyin: 'Wǒ xǐhuān dúshū', english: 'I like reading books' },
-          { chinese: '这本书很有趣', pinyin: 'Zhè běn shū hěn yǒuqù', english: 'This book is very interesting' }
+          { chinese: '我喜欢读书。', pinyin: 'Wǒ xǐhuān dúshū.', english: 'I like reading books.' },
+          { chinese: '你最喜欢哪本书？', pinyin: 'Nǐ zuì xǐhuān nǎ běn shū?', english: 'Which book do you like the most?' }
         ]
       },
       {
         character: '课本',
-        pinyin: 'kè běn',
+        pinyin: 'kèběn',
         english: 'textbook',
         exampleSentences: [
-          { chinese: '请打开课本', pinyin: 'Qǐng dǎkāi kèběn', english: 'Please open your textbook' },
-          { chinese: '这本课本很实用', pinyin: 'Zhè běn kèběn hěn shíyòng', english: 'This textbook is very practical' }
+          { chinese: '请打开课本第十页。', pinyin: 'Qǐng dǎkāi kèběn dì shí yè.', english: 'Please open the textbook to page 10.' },
+          { chinese: '你有英语课本吗？', pinyin: 'Nǐ yǒu Yīngyǔ kèběn ma?', english: 'Do you have an English textbook?' }
         ]
       },
       {
@@ -1126,44 +1126,26 @@ export const vocabularyGroups = [
         pinyin: 'bǐ',
         english: 'pen',
         exampleSentences: [
-          { chinese: '你有笔吗？', pinyin: 'Nǐ yǒu bǐ ma?', english: 'Do you have a pen?' },
-          { chinese: '这支笔很好写', pinyin: 'Zhè zhī bǐ hěn hǎo xiě', english: 'This pen writes well' }
-        ]
-      },
-      {
-        character: '铅笔',
-        pinyin: 'qiān bǐ',
-        english: 'pencil',
-        exampleSentences: [
-          { chinese: '我用铅笔画画', pinyin: 'Wǒ yòng qiānbǐ huà huà', english: 'I draw with a pencil' },
-          { chinese: '铅笔需要削一下', pinyin: 'Qiānbǐ xūyào xuē yīxià', english: 'The pencil needs sharpening' }
-        ]
-      },
-      {
-        character: '橡皮',
-        pinyin: 'xiàng pí',
-        english: 'eraser',
-        exampleSentences: [
-          { chinese: '请借我橡皮', pinyin: 'Qǐng jiè wǒ xiàngpí', english: 'Please lend me your eraser' },
-          { chinese: '这块橡皮很好用', pinyin: 'Zhè kuài xiàngpí hěn hǎo yòng', english: 'This eraser works well' }
+          { chinese: '我需要一支笔。', pinyin: 'Wǒ xūyào yī zhī bǐ.', english: 'I need a pen.' },
+          { chinese: '你有红色的笔吗？', pinyin: 'Nǐ yǒu hóngsè de bǐ ma?', english: 'Do you have a red pen?' }
         ]
       },
       {
         character: '尺子',
-        pinyin: 'chǐ zi',
+        pinyin: 'chǐzi',
         english: 'ruler',
         exampleSentences: [
-          { chinese: '用尺子量一下', pinyin: 'Yòng chǐzi liáng yīxià', english: 'Use the ruler to measure' },
-          { chinese: '这把尺子很长', pinyin: 'Zhè bǎ chǐzi hěn zhǎng', english: 'This ruler is very long' }
+          { chinese: '我用尺子量了这条线。', pinyin: 'Wǒ yòng chǐzi liáng le zhè tiáo xiàn.', english: 'I used a ruler to measure this line.' },
+          { chinese: '这把尺子有多长？', pinyin: 'Zhè bǎ chǐzi yǒu duō cháng?', english: 'How long is this ruler?' }
         ]
       },
       {
         character: '本子',
-        pinyin: 'běn zi',
+        pinyin: 'běnzi',
         english: 'notebook',
         exampleSentences: [
-          { chinese: '我把笔记写在本子上', pinyin: 'Wǒ bǎ bǐjì xiě zài běnzi shàng', english: 'I wrote my notes in the notebook' },
-          { chinese: '这个本子很好用', pinyin: 'Zhège běnzi hěn hǎo yòng', english: 'This notebook is very useful' }
+          { chinese: '我在本子上写了笔记。', pinyin: 'Wǒ zài běnzi shàng xiě le bǐjì.', english: 'I wrote notes in the notebook.' },
+          { chinese: '你有新本子吗？', pinyin: 'Nǐ yǒu xīn běnzi ma?', english: 'Do you have a new notebook?' }
         ]
       },
       {
@@ -1171,211 +1153,228 @@ export const vocabularyGroups = [
         pinyin: 'zhǐ',
         english: 'paper',
         exampleSentences: [
-          { chinese: '请给我一张纸', pinyin: 'Qǐng gěi wǒ yī zhāng zhǐ', english: 'Please give me a piece of paper' },
-          { chinese: '这张纸很薄', pinyin: 'Zhè zhāng zhǐ hěn báo', english: 'This paper is very thin' }
+          { chinese: '我需要一张纸。', pinyin: 'Wǒ xūyào yī zhāng zhǐ.', english: 'I need a piece of paper.' },
+          { chinese: '这张纸太薄了。', pinyin: 'Zhè zhāng zhǐ tài báo le.', english: 'This piece of paper is too thin.' }
         ]
       },
       {
         character: '书包',
-        pinyin: 'shū bāo',
+        pinyin: 'shūbāo',
         english: 'schoolbag',
         exampleSentences: [
-          { chinese: '我的书包很重', pinyin: 'Wǒ de shūbāo hěn zhòng', english: 'My schoolbag is heavy' },
-          { chinese: '你看见我的书包了吗？', pinyin: 'Nǐ kànjiàn wǒ de shūbāo le ma?', english: 'Did you see my schoolbag?' }
+          { chinese: '我的书包很重。', pinyin: 'Wǒ de shūbāo hěn zhòng.', english: 'My schoolbag is very heavy.' },
+          { chinese: '你书包里有什么？', pinyin: 'Nǐ shūbāo lǐ yǒu shénme?', english: 'What do you have in your schoolbag?' }
         ]
       },
       {
         character: '字典',
-        pinyin: 'zì diǎn',
+        pinyin: 'zìdiǎn',
         english: 'dictionary',
         exampleSentences: [
-          { chinese: '我用字典查单词', pinyin: 'Wǒ yòng zìdiǎn chá dāncí', english: 'I use a dictionary to look up words' },
-          { chinese: '这本字典很厚', pinyin: 'Zhè běn zìdiǎn hěn hòu', english: 'This dictionary is very thick' }
+          { chinese: '这本字典很有用。', pinyin: 'Zhè běn zìdiǎn hěn yǒuyòng.', english: 'This dictionary is very useful.' },
+          { chinese: '我需要查字典。', pinyin: 'Wǒ xūyào chá zìdiǎn.', english: 'I need to look it up in the dictionary.' }
         ]
       },
       {
         character: '笔记本',
-        pinyin: 'bǐ jì běn',
-        english: 'notebook (laptop)',
+        pinyin: 'bǐjìběn',
+        english: 'notebook (for notes)',
         exampleSentences: [
-          { chinese: '我用笔记本电脑工作', pinyin: 'Wǒ yòng bǐjìběn diànnǎo gōngzuò', english: 'I work on a laptop' },
-          { chinese: '这个笔记本很贵', pinyin: 'Zhège bǐjìběn hěn guì', english: 'This laptop is very expensive' }
+          { chinese: '我买了一个新笔记本。', pinyin: 'Wǒ mǎi le yī gè xīn bǐjìběn.', english: 'I bought a new notebook.' },
+          { chinese: '你可以在笔记本上写下来。', pinyin: 'Nǐ kěyǐ zài bǐjìběn shàng xiě xiàlái.', english: 'You can write it down in your notebook.' }
         ]
       },
       {
         character: '练习',
-        pinyin: 'liàn xí',
+        pinyin: 'liànxí',
         english: 'practice',
         exampleSentences: [
-          { chinese: '我每天练习写字', pinyin: 'Wǒ měitiān liànxí xiězì', english: 'I practice writing every day' },
-          { chinese: '你需要多练习', pinyin: 'Nǐ xūyào duō liànxí', english: 'You need to practice more' }
+          { chinese: '我每天练习中文。', pinyin: 'Wǒ měitiān liànxí Zhōngwén.', english: 'I practice Chinese every day.' },
+          { chinese: '这本书有很多练习题。', pinyin: 'Zhè běn shū yǒu hěn duō liànxí tí.', english: 'This book has many exercises.' }
         ]
       },
       {
         character: '作业',
-        pinyin: 'zuò yè',
+        pinyin: 'zuòyè',
         english: 'homework',
         exampleSentences: [
-          { chinese: '今天的作业很多', pinyin: 'Jīntiān de zuòyè hěn duō', english: 'There is a lot of homework today' },
-          { chinese: '你做完作业了吗？', pinyin: 'Nǐ zuòwán zuòyè le ma?', english: 'Did you finish your homework?' }
-        ]
-      },
-      {
-        character: '考试',
-        pinyin: 'kǎo shì',
-        english: 'exam',
-        exampleSentences: [
-          { chinese: '明天有一个重要的考试', pinyin: 'Míngtiān yǒu yīgè zhòngyào de kǎoshì', english: 'There is an important exam tomorrow' },
-          { chinese: '他正在准备考试', pinyin: 'Tā zhèngzài zhǔnbèi kǎoshì', english: 'He is preparing for the exam' }
+          { chinese: '你今天的作业是什么？', pinyin: 'Nǐ jīntiān de zuòyè shì shénme?', english: 'What is your homework today?' },
+          { chinese: '我正在做作业。', pinyin: 'Wǒ zhèngzài zuò zuòyè.', english: 'I am doing my homework.' }
         ]
       },
       {
         character: '学校',
-        pinyin: 'xué xiào',
+        pinyin: 'xuéxiào',
         english: 'school',
         exampleSentences: [
-          { chinese: '我每天去学校', pinyin: 'Wǒ měitiān qù xuéxiào', english: 'I go to school every day' },
-          { chinese: '这是一所很好的学校', pinyin: 'Zhè shì yī suǒ hěn hǎo de xuéxiào', english: 'This is a very good school' }
-        ]
-      },
-      {
-        character: '教室',
-        pinyin: 'jiào shì',
-        english: 'classroom',
-        exampleSentences: [
-          { chinese: '学生们都在教室里', pinyin: 'Xuéshēngmen dōu zài jiàoshì lǐ', english: 'The students are all in the classroom' },
-          { chinese: '教室很安静', pinyin: 'Jiàoshì hěn ānjìng', english: 'The classroom is quiet' }
-        ]
-      },
-      {
-        character: '学生',
-        pinyin: 'xué shēng',
-        english: 'student',
-        exampleSentences: [
-          { chinese: '我是学生', pinyin: 'Wǒ shì xuéshēng', english: 'I am a student' },
-          { chinese: '学生们都很努力', pinyin: 'Xuéshēngmen dōu hěn nǔlì', english: 'The students are all very hardworking' }
+          { chinese: '我在学校里学习。', pinyin: 'Wǒ zài xuéxiào lǐ xuéxí.', english: 'I study at school.' },
+          { chinese: '学校几点开门？', pinyin: 'Xuéxiào jǐ diǎn kāimén?', english: 'What time does the school open?' }
         ]
       },
       {
         character: '老师',
-        pinyin: 'lǎo shī',
+        pinyin: 'lǎoshī',
         english: 'teacher',
         exampleSentences: [
-          { chinese: '我们的老师很亲切', pinyin: 'Wǒmen de lǎoshī hěn qīnqiè', english: 'Our teacher is very kind' },
-          { chinese: '老师给我们很多帮助', pinyin: 'Lǎoshī gěi wǒmen hěn duō bāngzhù', english: 'The teacher gives us a lot of help' }
+          { chinese: '我的老师很友好。', pinyin: 'Wǒ de lǎoshī hěn yǒuhǎo.', english: 'My teacher is very friendly.' },
+          { chinese: '老师在教室里教课。', pinyin: 'Lǎoshī zài jiàoshì lǐ jiāo kè.', english: 'The teacher is teaching in the classroom.' }
+        ]
+      },
+      {
+        character: '学生',
+        pinyin: 'xuéshēng',
+        english: 'student',
+        exampleSentences: [
+          { chinese: '我是一个学生。', pinyin: 'Wǒ shì yī gè xuéshēng.', english: 'I am a student.' },
+          { chinese: '学生们在教室里学习。', pinyin: 'Xuéshēng men zài jiàoshì lǐ xuéxí.', english: 'Students are studying in the classroom.' }
         ]
       },
       {
         character: '课',
         pinyin: 'kè',
-        english: 'class',
+        english: 'class, lesson',
         exampleSentences: [
-          { chinese: '我们今天有中文课', pinyin: 'Wǒmen jīntiān yǒu Zhōngwén kè', english: 'We have Chinese class today' },
-          { chinese: '这节课很有意思', pinyin: 'Zhè jié kè hěn yǒuyìsi', english: 'This class is very interesting' }
+          { chinese: '我每天有四节课。', pinyin: 'Wǒ měitiān yǒu sì jié kè.', english: 'I have four classes every day.' },
+          { chinese: '这节课很有趣。', pinyin: 'Zhè jié kè hěn yǒuqù.', english: 'This class is very interesting.' }
         ]
       },
       {
-        character: '语法',
-        pinyin: 'yǔ fǎ',
-        english: 'grammar',
+        character: '教室',
+        pinyin: 'jiàoshì',
+        english: 'classroom',
         exampleSentences: [
-          { chinese: '学习语法很重要', pinyin: 'Xuéxí yǔfǎ hěn zhòngyào', english: 'Learning grammar is important' },
-          { chinese: '中文语法很难', pinyin: 'Zhōngwén yǔfǎ hěn nán', english: 'Chinese grammar is difficult' }
+          { chinese: '学生们在教室里学习。', pinyin: 'Xuéshēng men zài jiàoshì lǐ xuéxí.', english: 'The students are studying in the classroom.' },
+          { chinese: '教室里有很多桌椅。', pinyin: 'Jiàoshì lǐ yǒu hěn duō zhuō yǐ.', english: 'There are many desks and chairs in the classroom.' }
         ]
       },
       {
-        character: '单词',
-        pinyin: 'dān cí',
-        english: 'word',
+        character: '讲义',
+        pinyin: 'jiǎngyì',
+        english: 'handout, lecture notes',
         exampleSentences: [
-          { chinese: '请学习这些单词', pinyin: 'Qǐng xuéxí zhèxiē dāncí', english: 'Please learn these words' },
-          { chinese: '这个单词是什么意思？', pinyin: 'Zhège dāncí shì shénme yìsi?', english: 'What does this word mean?' }
+          { chinese: '老师发了今天的讲义。', pinyin: 'Lǎoshī fā le jīntiān de jiǎngyì.', english: 'The teacher handed out today’s lecture notes.' },
+          { chinese: '你有昨天的讲义吗？', pinyin: 'Nǐ yǒu zuótiān de jiǎngyì ma?', english: 'Do you have yesterday’s lecture notes?' }
         ]
       },
       {
-        character: '句子',
-        pinyin: 'jù zi',
-        english: 'sentence',
+        character: '讲台',
+        pinyin: 'jiǎngtái',
+        english: 'podium',
         exampleSentences: [
-          { chinese: '请用这个单词造句子', pinyin: 'Qǐng yòng zhège dāncí zào jùzi', english: 'Please make a sentence with this word' },
-          { chinese: '这个句子很长', pinyin: 'Zhège jùzi hěn cháng', english: 'This sentence is very long' }
+          { chinese: '老师站在讲台上。', pinyin: 'Lǎoshī zhàn zài jiǎngtái shàng.', english: 'The teacher is standing at the podium.' },
+          { chinese: '讲台前有一个黑板。', pinyin: 'Jiǎngtái qián yǒu yī gè hēibǎn.', english: 'There is a blackboard in front of the podium.' }
         ]
       },
       {
-        character: '文章',
-        pinyin: 'wén zhāng',
-        english: 'article',
+        character: '考试',
+        pinyin: 'kǎoshì',
+        english: 'exam',
         exampleSentences: [
-          { chinese: '我在读一篇文章', pinyin: 'Wǒ zài dú yī piān wénzhāng', english: 'I’m reading an article' },
-          { chinese: '这篇文章很有意思', pinyin: 'Zhè piān wénzhāng hěn yǒuyìsi', english: 'This article is very interesting' }
+          { chinese: '我明天有一个重要的考试。', pinyin: 'Wǒ míngtiān yǒu yī gè zhòngyào de kǎoshì.', english: 'I have an important exam tomorrow.' },
+          { chinese: '你准备好考试了吗？', pinyin: 'Nǐ zhǔnbèi hǎo kǎoshì le ma?', english: 'Are you ready for the exam?' }
         ]
       },
       {
-        character: '课文',
-        pinyin: 'kè wén',
-        english: 'text (in a textbook)',
+        character: '学习',
+        pinyin: 'xuéxí',
+        english: 'study',
         exampleSentences: [
-          { chinese: '请读课文', pinyin: 'Qǐng dú kèwén', english: 'Please read the text' },
-          { chinese: '这段课文很难', pinyin: 'Zhè duàn kèwén hěn nán', english: 'This part of the text is difficult' }
+          { chinese: '我每天都学习。', pinyin: 'Wǒ měitiān dōu xuéxí.', english: 'I study every day.' },
+          { chinese: '你什么时候学习？', pinyin: 'Nǐ shénme shíhou xuéxí?', english: 'When do you study?' }
         ]
       },
       {
-        character: '语音',
-        pinyin: 'yǔ yīn',
-        english: 'phonetics',
+        character: '练习题',
+        pinyin: 'liànxítí',
+        english: 'exercise (practice problems)',
         exampleSentences: [
-          { chinese: '语音学习很重要', pinyin: 'Yǔyīn xuéxí hěn zhòngyào', english: 'Learning phonetics is important' },
-          { chinese: '语音练习帮助我们发音', pinyin: 'Yǔyīn liànxí bāngzhù wǒmen fāyīn', english: 'Phonetics exercises help us with pronunciation' }
+          { chinese: '老师给我们很多练习题。', pinyin: 'Lǎoshī gěi wǒmen hěn duō liànxítí.', english: 'The teacher gave us many practice problems.' },
+          { chinese: '你做完练习题了吗？', pinyin: 'Nǐ zuò wán liànxítí le ma?', english: 'Have you finished the practice problems?' }
         ]
       },
       {
-        character: '阅读',
-        pinyin: 'yuè dú',
-        english: 'reading',
+        character: '考卷',
+        pinyin: 'kǎojuàn',
+        english: 'exam paper',
         exampleSentences: [
-          { chinese: '我喜欢阅读', pinyin: 'Wǒ xǐhuān yuèdú', english: 'I like reading' },
-          { chinese: '阅读提高了我的理解能力', pinyin: 'Yuèdú tígāo le wǒ de lǐjiě nénglì', english: 'Reading improved my comprehension skills' }
+          { chinese: '请交上你的考卷。', pinyin: 'Qǐng jiāo shàng nǐ de kǎojuàn.', english: 'Please hand in your exam paper.' },
+          { chinese: '考卷发下来了。', pinyin: 'Kǎojuàn fā xiàlái le.', english: 'The exam papers have been handed out.' }
         ]
       },
       {
-        character: '写作',
-        pinyin: 'xiě zuò',
-        english: 'writing',
+        character: '铅笔',
+        pinyin: 'qiānbǐ',
+        english: 'pencil',
         exampleSentences: [
-          { chinese: '我在写作', pinyin: 'Wǒ zài xiězuò', english: 'I am writing' },
-          { chinese: '写作是表达思想的方式', pinyin: 'Xiězuò shì biǎodá sīxiǎng de fāngshì', english: 'Writing is a way to express thoughts' }
+          { chinese: '我用铅笔写字。', pinyin: 'Wǒ yòng qiānbǐ xiězì.', english: 'I write with a pencil.' },
+          { chinese: '你有铅笔吗？', pinyin: 'Nǐ yǒu qiānbǐ ma?', english: 'Do you have a pencil?' }
         ]
       },
       {
-        character: '听力',
-        pinyin: 'tīng lì',
-        english: 'listening comprehension',
+        character: '黑板',
+        pinyin: 'hēibǎn',
+        english: 'blackboard',
         exampleSentences: [
-          { chinese: '听力练习很重要', pinyin: 'Tīnglì liànxí hěn zhòngyào', english: 'Listening comprehension practice is important' },
-          { chinese: '你需要提高听力', pinyin: 'Nǐ xūyào tígāo tīnglì', english: 'You need to improve your listening skills' }
+          { chinese: '老师在黑板上写字。', pinyin: 'Lǎoshī zài hēibǎn shàng xiězì.', english: 'The teacher is writing on the blackboard.' },
+          { chinese: '黑板上有很多字。', pinyin: 'Hēibǎn shàng yǒu hěn duō zì.', english: 'There are many words on the blackboard.' }
         ]
       },
       {
-        character: '口语',
-        pinyin: 'kǒu yǔ',
-        english: 'spoken language',
+        character: '讲义夹',
+        pinyin: 'jiǎngyì jiā',
+        english: 'binder',
         exampleSentences: [
-          { chinese: '口语练习对学中文很有帮助', pinyin: 'Kǒuyǔ liànxí duì xué Zhōngwén hěn yǒu bāngzhù', english: 'Speaking practice is very helpful for learning Chinese' },
-          { chinese: '他的口语很好', pinyin: 'Tā de kǒuyǔ hěn hǎo', english: 'His spoken language is very good' }
+          { chinese: '我把讲义放在讲义夹里。', pinyin: 'Wǒ bǎ jiǎngyì fàng zài jiǎngyì jiā lǐ.', english: 'I put the handouts in the binder.' },
+          { chinese: '讲义夹里有很多资料。', pinyin: 'Jiǎngyì jiā lǐ yǒu hěn duō zīliào.', english: 'There are many materials in the binder.' }
         ]
       },
       {
-        character: '文化',
-        pinyin: 'wén huà',
-        english: 'culture',
+        character: '笔筒',
+        pinyin: 'bǐtǒng',
+        english: 'pen holder',
         exampleSentences: [
-          { chinese: '中国文化很丰富', pinyin: 'Zhōngguó wénhuà hěn fēngfù', english: 'Chinese culture is very rich' },
-          { chinese: '了解不同的文化很重要', pinyin: 'Liǎojiě bùtóng de wénhuà hěn zhòngyào', english: 'Understanding different cultures is important' }
+          { chinese: '我把笔放在笔筒里。', pinyin: 'Wǒ bǎ bǐ fàng zài bǐtǒng lǐ.', english: 'I put the pens in the pen holder.' },
+          { chinese: '笔筒里有很多铅笔。', pinyin: 'Bǐtǒng lǐ yǒu hěn duō qiānbǐ.', english: 'There are many pencils in the pen holder.' }
+        ]
+      },
+      {
+        character: '练习本',
+        pinyin: 'liànxíběn',
+        english: 'exercise book',
+        exampleSentences: [
+          { chinese: '我在练习本上写练习题。', pinyin: 'Wǒ zài liànxíběn shàng xiě liànxítí.', english: 'I write practice problems in the exercise book.' },
+          { chinese: '你有练习本吗？', pinyin: 'Nǐ yǒu liànxíběn ma?', english: 'Do you have an exercise book?' }
+        ]
+      },
+      {
+        character: '画',
+        pinyin: 'huà',
+        english: 'painting',
+        exampleSentences: [
+          { chinese: '我喜欢这幅画。', pinyin: 'Wǒ xǐhuān zhè fú huà.', english: 'I like this painting.' },
+          { chinese: '这幅画很美。', pinyin: 'Zhè fú huà hěn měi.', english: 'This painting is very beautiful.' }
+        ]
+      },
+      {
+        character: '纸张',
+        pinyin: 'zhǐzhāng',
+        english: 'sheets of paper',
+        exampleSentences: [
+          { chinese: '请给我一张纸。', pinyin: 'Qǐng gěi wǒ yī zhāng zhǐ.', english: 'Please give me a sheet of paper.' },
+          { chinese: '纸张很薄。', pinyin: 'Zhǐzhāng hěn báo.', english: 'The paper is very thin.' }
+        ]
+      },
+      {
+        character: '笔记本',
+        pinyin: 'bǐjìběn',
+        english: 'notebook',
+        exampleSentences: [
+          { chinese: '我用笔记本记笔记。', pinyin: 'Wǒ yòng bǐjìběn jì bǐjì.', english: 'I use a notebook to take notes.' },
+          { chinese: '她送给我一个新笔记本。', pinyin: 'Tā sòng gěi wǒ yī gè xīn bǐjìběn.', english: 'She gave me a new notebook.' }
         ]
       }
     ]
   },
-  
   {
     name: 'Group 6',
     words: [
@@ -1651,6 +1650,258 @@ export const vocabularyGroups = [
       }
     ]
   },
+  {
+    name: 'Group 7',
+    words: [
+      {
+        character: '厨房',
+        pinyin: 'chúfáng',
+        english: 'kitchen',
+        exampleSentences: [
+          { chinese: '我在厨房里做饭。', pinyin: 'Wǒ zài chúfáng lǐ zuò fàn.', english: 'I cook in the kitchen.' },
+          { chinese: '厨房很干净。', pinyin: 'Chúfáng hěn gānjìng.', english: 'The kitchen is very clean.' }
+        ]
+      },
+      {
+        character: '椅子',
+        pinyin: 'yǐzi',
+        english: 'chair',
+        exampleSentences: [
+          { chinese: '请坐在椅子上。', pinyin: 'Qǐng zuò zài yǐzi shàng.', english: 'Please sit on the chair.' },
+          { chinese: '这把椅子很舒服。', pinyin: 'Zhè bǎ yǐzi hěn shūfú.', english: 'This chair is very comfortable.' }
+        ]
+      },
+      {
+        character: '桌子',
+        pinyin: 'zhuōzi',
+        english: 'table',
+        exampleSentences: [
+          { chinese: '桌子上有很多书。', pinyin: 'Zhuōzi shàng yǒu hěn duō shū.', english: 'There are many books on the table.' },
+          { chinese: '请把杯子放在桌子上。', pinyin: 'Qǐng bǎ bēizi fàng zài zhuōzi shàng.', english: 'Please put the cup on the table.' }
+        ]
+      },
+      {
+        character: '房子',
+        pinyin: 'fángzi',
+        english: 'house',
+        exampleSentences: [
+          { chinese: '我们住在一栋大房子里。', pinyin: 'Wǒmen zhù zài yī dòng dà fángzi lǐ.', english: 'We live in a big house.' },
+          { chinese: '这座房子很漂亮。', pinyin: 'Zhè zuò fángzi hěn piàoliang.', english: 'This house is very beautiful.' }
+        ]
+      },
+      {
+        character: '客厅',
+        pinyin: 'kètīng',
+        english: 'living room',
+        exampleSentences: [
+          { chinese: '我们在客厅看电视。', pinyin: 'Wǒmen zài kètīng kàn diànshì.', english: 'We watch TV in the living room.' },
+          { chinese: '客厅里有一张沙发。', pinyin: 'Kètīng lǐ yǒu yī zhāng shāfā.', english: 'There is a sofa in the living room.' }
+        ]
+      },
+      {
+        character: '沙发',
+        pinyin: 'shāfā',
+        english: 'sofa',
+        exampleSentences: [
+          { chinese: '这张沙发很舒服。', pinyin: 'Zhè zhāng shāfā hěn shūfú.', english: 'This sofa is very comfortable.' },
+          { chinese: '请坐在沙发上。', pinyin: 'Qǐng zuò zài shāfā shàng.', english: 'Please sit on the sofa.' }
+        ]
+      },
+      {
+        character: '卧室',
+        pinyin: 'wòshì',
+        english: 'bedroom',
+        exampleSentences: [
+          { chinese: '我的卧室很大。', pinyin: 'Wǒ de wòshì hěn dà.', english: 'My bedroom is very big.' },
+          { chinese: '她在卧室里睡觉。', pinyin: 'Tā zài wòshì lǐ shuìjiào.', english: 'She is sleeping in the bedroom.' }
+        ]
+      },
+      {
+        character: '床',
+        pinyin: 'chuáng',
+        english: 'bed',
+        exampleSentences: [
+          { chinese: '我有一张大床。', pinyin: 'Wǒ yǒu yī zhāng dà chuáng.', english: 'I have a big bed.' },
+          { chinese: '床上有一条毯子。', pinyin: 'Chuáng shàng yǒu yī tiáo tǎnzi.', english: 'There is a blanket on the bed.' }
+        ]
+      },
+      {
+        character: '窗户',
+        pinyin: 'chuānghu',
+        english: 'window',
+        exampleSentences: [
+          { chinese: '我打开了窗户。', pinyin: 'Wǒ dǎkāi le chuānghu.', english: 'I opened the window.' },
+          { chinese: '窗户外面有一棵树。', pinyin: 'Chuānghu wàimiàn yǒu yī kē shù.', english: 'There is a tree outside the window.' }
+        ]
+      },
+      {
+        character: '门',
+        pinyin: 'mén',
+        english: 'door',
+        exampleSentences: [
+          { chinese: '请把门关上。', pinyin: 'Qǐng bǎ mén guānshàng.', english: 'Please close the door.' },
+          { chinese: '门外有人在等你。', pinyin: 'Mén wài yǒurén zài děng nǐ.', english: 'Someone is waiting for you outside the door.' }
+        ]
+      },
+      {
+        character: '洗手间',
+        pinyin: 'xǐshǒujiān',
+        english: 'bathroom',
+        exampleSentences: [
+          { chinese: '洗手间在楼上。', pinyin: 'Xǐshǒujiān zài lóushàng.', english: 'The bathroom is upstairs.' },
+          { chinese: '请问洗手间在哪里？', pinyin: 'Qǐngwèn xǐshǒujiān zài nǎlǐ?', english: 'Excuse me, where is the bathroom?' }
+        ]
+      },
+      {
+        character: '花园',
+        pinyin: 'huāyuán',
+        english: 'garden',
+        exampleSentences: [
+          { chinese: '我喜欢在花园里散步。', pinyin: 'Wǒ xǐhuān zài huāyuán lǐ sànbù.', english: 'I like walking in the garden.' },
+          { chinese: '花园里有很多花。', pinyin: 'Huāyuán lǐ yǒu hěn duō huā.', english: 'There are many flowers in the garden.' }
+        ]
+      },
+      {
+        character: '阳台',
+        pinyin: 'yángtái',
+        english: 'balcony',
+        exampleSentences: [
+          { chinese: '我在阳台上晒太阳。', pinyin: 'Wǒ zài yángtái shàng shài tàiyáng.', english: 'I sunbathe on the balcony.' },
+          { chinese: '阳台上有一张椅子。', pinyin: 'Yángtái shàng yǒu yī zhāng yǐzi.', english: 'There is a chair on the balcony.' }
+        ]
+      },
+      {
+        character: '电视机',
+        pinyin: 'diànshìjī',
+        english: 'television set',
+        exampleSentences: [
+          { chinese: '我们家有一台大电视机。', pinyin: 'Wǒmen jiā yǒu yī tái dà diànshìjī.', english: 'We have a big television set at home.' },
+          { chinese: '电视机在客厅里。', pinyin: 'Diànshìjī zài kètīng lǐ.', english: 'The television set is in the living room.' }
+        ]
+      },
+      {
+        character: '冰箱',
+        pinyin: 'bīngxiāng',
+        english: 'refrigerator',
+        exampleSentences: [
+          { chinese: '冰箱里有很多水果。', pinyin: 'Bīngxiāng lǐ yǒu hěn duō shuǐguǒ.', english: 'There are a lot of fruits in the refrigerator.' },
+          { chinese: '请把牛奶放进冰箱。', pinyin: 'Qǐng bǎ niúnǎi fàng jìn bīngxiāng.', english: 'Please put the milk in the refrigerator.' }
+        ]
+      },
+      {
+        character: '灯',
+        pinyin: 'dēng',
+        english: 'lamp',
+        exampleSentences: [
+          { chinese: '请把灯打开。', pinyin: 'Qǐng bǎ dēng dǎkāi.', english: 'Please turn on the lamp.' },
+          { chinese: '这盏灯很亮。', pinyin: 'Zhè zhǎn dēng hěn liàng.', english: 'This lamp is very bright.' }
+        ]
+      },
+      {
+        character: '书架',
+        pinyin: 'shūjià',
+        english: 'bookshelf',
+        exampleSentences: [
+          { chinese: '书架上有很多书。', pinyin: 'Shūjià shàng yǒu hěn duō shū.', english: 'There are many books on the bookshelf.' },
+          { chinese: '他把书放在书架上。', pinyin: 'Tā bǎ shū fàng zài shūjià shàng.', english: 'He put the books on the bookshelf.' }
+        ]
+      },
+      {
+        character: '地板',
+        pinyin: 'dìbǎn',
+        english: 'floor',
+        exampleSentences: [
+          { chinese: '地板很干净。', pinyin: 'Dìbǎn hěn gānjìng.', english: 'The floor is very clean.' },
+          { chinese: '请在地板上铺一张地毯。', pinyin: 'Qǐng zài dìbǎn shàng pù yī zhāng dìtǎn.', english: 'Please lay a carpet on the floor.' }
+        ]
+      },
+      {
+        character: '窗帘',
+        pinyin: 'chuānglián',
+        english: 'curtain',
+        exampleSentences: [
+          { chinese: '我拉开了窗帘。', pinyin: 'Wǒ lākāi le chuānglián.', english: 'I opened the curtains.' },
+          { chinese: '窗帘的颜色很漂亮。', pinyin: 'Chuānglián de yánsè hěn piàoliang.', english: 'The color of the curtains is very beautiful.' }
+        ]
+      },
+      {
+        character: '时钟',
+        pinyin: 'shízhōng',
+        english: 'clock',
+        exampleSentences: [
+          { chinese: '墙上有一个时钟。', pinyin: 'Qiáng shàng yǒu yī gè shízhōng.', english: 'There is a clock on the wall.' },
+          { chinese: '时钟显示现在是八点。', pinyin: 'Shízhōng xiǎnshì xiànzài shì bā diǎn.', english: 'The clock shows it is now eight o’clock.' }
+        ]
+      },
+      {
+        character: '垃圾桶',
+        pinyin: 'lājītǒng',
+        english: 'trash can',
+        exampleSentences: [
+          { chinese: '请把垃圾扔进垃圾桶。', pinyin: 'Qǐng bǎ lājī rēng jìn lājītǒng.', english: 'Please throw the trash into the trash can.' },
+          { chinese: '垃圾桶满了。', pinyin: 'Lājītǒng mǎn le.', english: 'The trash can is full.' }
+        ]
+      },
+      {
+        character: '镜子',
+        pinyin: 'jìngzi',
+        english: 'mirror',
+        exampleSentences: [
+          { chinese: '她在镜子前化妆。', pinyin: 'Tā zài jìngzi qián huàzhuāng.', english: 'She is putting on makeup in front of the mirror.' },
+          { chinese: '这面镜子很大。', pinyin: 'Zhè miàn jìngzi hěn dà.', english: 'This mirror is very big.' }
+        ]
+      },
+      {
+        character: '微波炉',
+        pinyin: 'wéibōlú',
+        english: 'microwave',
+        exampleSentences: [
+          { chinese: '我用微波炉加热食物。', pinyin: 'Wǒ yòng wéibōlú jiārè shíwù.', english: 'I use the microwave to heat food.' },
+          { chinese: '微波炉在厨房里。', pinyin: 'Wéibōlú zài chúfáng lǐ.', english: 'The microwave is in the kitchen.' }
+        ]
+      },
+      {
+        character: '烤箱',
+        pinyin: 'kǎoxiāng',
+        english: 'oven',
+        exampleSentences: [
+          { chinese: '我用烤箱烤面包。', pinyin: 'Wǒ yòng kǎoxiāng kǎo miànbāo.', english: 'I bake bread in the oven.' },
+          { chinese: '烤箱里有蛋糕。', pinyin: 'Kǎoxiāng lǐ yǒu dàngāo.', english: 'There is a cake in the oven.' }
+        ]
+      },
+      {
+        character: '餐桌',
+        pinyin: 'cānzhuō',
+        english: 'dining table',
+        exampleSentences: [
+          { chinese: '我们在餐桌上吃饭。', pinyin: 'Wǒmen zài cānzhuō shàng chīfàn.', english: 'We eat at the dining table.' },
+          { chinese: '餐桌上有很多食物。', pinyin: 'Cānzhuō shàng yǒu hěn duō shíwù.', english: 'There is a lot of food on the dining table.' }
+        ]
+      },
+      {
+        character: '洗衣机',
+        pinyin: 'xǐyījī',
+        english: 'washing machine',
+        exampleSentences: [
+          { chinese: '我用洗衣机洗衣服。', pinyin: 'Wǒ yòng xǐyījī xǐ yīfú.', english: 'I use the washing machine to wash clothes.' },
+          { chinese: '洗衣机在卫生间里。', pinyin: 'Xǐyījī zài wèishēngjiān lǐ.', english: 'The washing machine is in the bathroom.' }
+        ]
+      },
+      {
+        character: '干衣机',
+        pinyin: 'gānyījī',
+        english: 'dryer',
+        exampleSentences: [
+          { chinese: '我用干衣机烘干衣服。', pinyin: 'Wǒ yòng gānyījī hōnggān yīfú.', english: 'I use the dryer to dry clothes.' },
+          { chinese: '干衣机在洗衣机旁边。', pinyin: 'Gānyījī zài xǐyījī pángbiān.', english: 'The dryer is next to the washing machine.' }
+        ]
+      }
+    ]
+  }
+  
+
+  
+  
 ];
 
 export const sentenceGroups = [
